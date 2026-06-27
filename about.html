@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <!-- عنوان و توضیحات بهینه شده برای صفحه "درباره ما" -->
+    <title>درباره شهرستان تالش (هشتپر) | تاریخ، فرهنگ و جاذبه‌ها</title>
+    <meta name="description" content="با هشتپر، شهر زیبای تالش را بیشتر بشناسید. اطلاعاتی کامل درباره تاریخچه غنی، فرهنگ اصیل و جاذبه‌های گردشگری هشتپر، از جنگل‌های سرسبز تا سواحل دریای خزر.">
+    <meta name="author" content="هشتپر-تالش-Talesh-8par">
+    <!-- تگ viewport اصلاح شده -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="boxed_wrapper">
+
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close">بستن بارگذاری</div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader=" هــشتپر" class="letters-loading">
+                                هــشتپر</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="search-popup" class="search-popup">
+            <div class="close-search"><span>بستن</span></div>
+            <div class="popup-inner">
+                <div class="overlay-layer"></div>
+                <div class="search-form">
+                    <!-- action باید به صفحه جستجوی خودتون اشاره کنه -->
+                    <form method="post" action="index.html">
+                        <div class="form-group">
+                            <fieldset>
+                                <input type="search" class="form-control" name="search-input" value="" placeholder="در اینجا جستجو کنید" required>
+                                <input type="submit" value="اکنون جستجو کنید!" class="theme-btn style-four">
+                            </fieldset>
+                        </div>
+                    </form>
+                    <h3>کلمات کلیدی جستجوی اخیر</h3>
+                    <ul class="recent-searches">
+                        <li><a href="index.html">جاذبه های گردشگری</a></li>
+                        <li><a href="index.html">تاریخچه تالش</a></li>
+                        <li><a href="index.html">فرهنگ تالشی</a></li>
+                        <li><a href="index.html">هتل و اقامتگاه</a></li>
+                        <li><a href="index.html">سواحل تالش</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="xs-sidebar-group info-group info-sidebar">
+            <div class="xs-overlay xs-bg-black"></div>
+            <div class="xs-sidebar-widget">
+                <div class="sidebar-widget-container">
+                    <div class="widget-heading">
+                        <a href="#" class="close-side-widget"><i class="fal fa-times"></i></a>
+                    </div>
+                    <div class="sidebar-textwidget">
+                        <div class="sidebar-info-contents">
+                            <div class="content-inner">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/images/logo-2.png" alt="لوگوی هشتپر"></a>
+                                </div>
+                                <div class="content-box">
+                                    <h4>پیشنهاد خود را ثبت کنید</h4>
+                                    <!-- action باید به صفحه تماس یا فرم خودتون اشاره کنه -->
+                                    <form action="contact.html" method="post" class="booking-form">
+                                        <div class="form-group">
+                                            <input type="text" name="name" placeholder=" نام" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder=" ایمیل" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea name="message" placeholder=" توضیحات"></textarea>
+                                        </div>
+                                        <div class="form-group message-btn">
+                                            <button type="submit">ارسال</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>اطلاعات تماس</h4>
+                                    <ul>
+                                        <li>استان گیلان_شهرستان تالش </li>
+                                    </ul>
+                                </div>
+                                <ul class="social-box">
+                                    <li class="facebook"><a href="#" class="fab fa-facebook-f"></a></li>
+                                    <li class="twitter"><a href="#" class="fab fa-twitter"></a></li>
+                                    <li class="linkedin"><a href="#" class="fab fa-linkedin-in"></a></li>
+                                    <li class="instagram"><a href="#" class="fab fa-instagram"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="main-header style-one">
+
+            <div class="header-top">
+                <div class="auto-container">
+                    <div class="top-inner clearfix">
+                        <div class="left-column pull-left clearfix">
+                            <div class="weather-box">
+                                <i class="flaticon-sunny-day-or-sun-weather"></i>
+                                <a href="#" id="iran-time"></a>
+                            </div>
+
+                            <style>
+                                .weather-box {
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 8px;
+                                    font-family: "IRANSans", sans-serif;
+                                    font-size: 16px;
+                                }
+
+                                .weather-box i {
+                                    color: orange;
+                                    font-size: 20px;
+                                }
+
+                                .weather-box a {
+                                    color: red;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                }
+                            </style>
+
+                            <script>
+                                function updateIranTime() {
+                                    const now = new Date();
+                                    const options = {
+                                        timeZone: 'Asia/Tehran',
+                                        hour: '2-digit',
+                                        minute: '2-digit',
+                                        day: '2-digit',
+                                        month: 'long',
+                                    };
+                                    const formatter = new Intl.DateTimeFormat('fa-IR', options);
+                                    const parts = formatter.formatToParts(now);
+
+                                    const hour = parts.find(p => p.type === 'hour').value;
+                                    const minute = parts.find(p => p.type === 'minute').value;
+                                    const day = parts.find(p => p.type === 'day').value;
+                                    const month = parts.find(p => p.type === 'month').value;
+
+                                    document.getElementById('iran-time').textContent = `${day} ${month} - ${hour}:${minute}`;
+                                }
+
+                                updateIranTime();
+                                setInterval(updateIranTime, 60000);
+                            </script>
+                            <ul class="links-box clearfix">
+                            </ul>
+                        </div>
+                        <div class="right-column pull-right clearfix">
+                            <ul class="info-list clearfix">
+                            </ul>
+                            <ul class="social-links clearfix">
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="outer-box clearfix">
+                        <div class="logo-box pull-left">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="لوگوی اصلی هشتپر"></a></figure>
+                        </div>
+                        <div class="menu-area clearfix pull-right">
+
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class=""><a href="index.html">صفحه اصلی</a>
+                                        <li class="dropdown"><a href="#">معرفی هشتپر</a>
+                                            <ul>
+                                                <li><a href="service.html">موقعیت جغراقیایی</a></li>
+												<li><a href="history.html">تاریخچه و فرهنگ</a></li>
+												<li><a href="event.html">اقوام و زبان</a></li>
+												<li><a href="about.html">درباره ما</a></li>
+												</ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">جاذبه های گردشگری</a>
+                                            <ul>
+<li><a href="tourism-travel.html">ییلاقات و طبیعت بکر</a></li>
+<li><a href="tourism-travel3.html">مکان های تاریخی</a></li>
+<li><a href="tourism-travel2.html">ساحل و جنگل</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">رسانه و گالری</a>
+                                            <ul>
+                                               <li><a href="health-medical.html">خبرگزاری محلی</a></li>
+<li><a href="gallery.html">گالری تصاویر</a></li>
+<li><a href="event-details.html">تالار گفتمان</a></li>
+<li><a href="event-2.html">ویدیو ها</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">خدمات</a>
+                                            <ul>
+                                                <li><a href="blog.html">کسب‌وکارهای تالش</a></li>
+                                                <li><a href="municipality.html"> شهرداری تالش</a></li>
+                                                <li><a href="tourism-travel1.html">رزرو اقامتگاه</a></li>
+                                                <li><a href="#">آب و هوا</a></li>
+                                                <li><a href="blog-2.html">تور ها</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">تماس</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="menu-right-content clearfix">
+                                <div class="language-box">
+                                </div>
+                                <ul class="other-option clearfix">
+                                    <li class="search-btn">
+                                        <button type="button" class="search-toggler"><i class="far fa-search"></i></button>
+                                    </li>
+                                    <li class="nav-box">
+                                        <div class="nav-toggler navSidebar-button"><i class="fas fa-th-large"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="outer-box clearfix">
+                        <div class="logo-box pull-left">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="لوگوی هشتپر در هدر چسبان"></a></figure>
+                        </div>
+                        <div class="menu-area clearfix pull-right">
+                            <nav class="main-menu clearfix">
+                                <!-- منو در اینجا به صورت داینامیک کپی میشود -->
+                            </nav>
+                            <div class="menu-right-content clearfix">
+                                <div class="language-box">
+                                </div>
+                                <ul class="other-option clearfix">
+                                    <li class="search-btn">
+                                        <button type="button" class="search-toggler"><i class="far fa-search"></i></button>
+                                    </li>
+                                    <li class="nav-box">
+                                        <div class="nav-toggler navSidebar-button"><i class="fas fa-th-large"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="لوگوی هشتپر در منوی موبایل" title=""></a></div>
+                <div class="menu-outer"></div>
+                <div class="contact-info">
+                    <h4>اطلاعات تماس</h4>
+                    <ul>
+                        <li>استان گیلان_شهرستان تالش </li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="#"><span class="fab fa-telegram"></span></a></li>
+                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- h1 اضافه شد و alt تصاویر اصلاح شد -->
+        <section class="page-title" style="background-image: url(assets/images/background/page-title.jpg);">
+            <div class="auto-container">
+                <div class="content-box">
+                    <div class="title centred">
+                        <h1>درباره ما | هــشتپر</h1>
+                    </div>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index.html">صفحه اصلی</a></li>
+                        <li>درباره ما</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-style-three">
+            <div class="auto-container">
+                <div class="row clearfix align-items-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_5">
+                            <div class="content-box">
+                                <div class="sec-title">
+                                    <h6><i class="flaticon-star"></i><span>درباره ما | هشتپر</span></h6>
+                                    <h2>هــشتپر</h2>
+                                    <div class="title-shape"></div>
+                                </div>
+                                <div class="text">
+                                    <h4>"هشتپر جاییه برای عاشقان زیبایی"</h4>
+                                    <p>ما اینجا جمع شدیم تا تصویری واقعی از تالش و هشتپر نشون بدیم — شهری که بوی دریا، جنگل و مه توی هواش پیچیده.این شهر در سال <a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D9%84%D8%B4_%28%D8%B4%D9%87%D8%B1%29?utm_source=chatgpt.com">۱۳۲۶</a> به عنوان شهر شناخته شده است. </p>
+                                    <ul class="list clearfix">
+                                        <li><i class="flaticon-bird"></i>در هشتپر، هدف ما فقط معرفی جاهای دیدنی نیست؛</li>
+                                        <li><i class="flaticon-bird"></i>می‌خوایم حس زندگی توی شمال ایران رو منتقل کنیم</li>
+                                        <li><i class="flaticon-bird"></i>می‌خوایم دیدن این زیبایی‌ها رو ساده‌تر کنیم</li>
+                                        <li><i class="flaticon-bird"></i>هشتپر یعنی تالش و آرامشی به رنگ بارون.</li>
+                                        <li><i class="flaticon-bird"></i>هشتپر، نفس تازه‌ی شمال؛ بوی خاک و بارون.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                        <figure class="image-box"><img src="assets/images/resource/about-2.jpg" alt="منظره‌ای زیبا از طبیعت و جنگل‌های شهرستان تالش"></figure>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 inner-column">
+                        <div class="feature-block-one">
+                            <div class="inner-box">
+                                <figure class="image"><img src="assets/images/resource/feature-1.jpg" alt="یکی از جاذبه‌های طبیعی تالش"></figure>
+                                <div class="text">
+                                </div>
+                                <div class="overlay-content">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-block-one">
+                            <div class="inner-box">
+                                <figure class="image"><img src="assets/images/resource/feature-2.jpg" alt="تصویری از فرهنگ و مردم تالش"></figure>
+                            </div>
+                            <div class="overlay-content">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- alt تصاویر این بخش هم اصلاح شد -->
+        <section class="discover-section sec-pad" style="background-image: url(assets/images/background/discover-bg.jpg);">
+            <div class="auto-container">
+                <div class="sec-title centred light">
+                    <h6><i class="flaticon-star"></i><span>«چرا هشتپر خاصه؟»</span><i class="flaticon-star"></i></h6>
+                    <h2>«هشتپر، از دل طبیعت تا فرهنگ»</h2>
+                    <div class="title-shape"></div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12 discover-block">
+                        <div class="discover-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="content-box">
+                                    <h4>طبیعت بکر<br />و آرامش بخش</h4>
+                                </div>
+                                <div class="overlay-content">
+                                    <h4>طبیعت بکر و آرامش‌بخش</h4>
+                                    <p>جنگل، دریا و کوه تو یه قاب؛ جایی که هر مسافر نفس تازه می‌کشه.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 discover-block">
+                        <div class="discover-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="content-box">
+                                    <h4>پیشینه <br />تاریخی غنی</h4>
+                                </div>
+                                <div class="overlay-content">
+                                    <h4>پیشینه <br />تاریخی غنی</h4>
+                                    <p>از دوران باستان تا امروز، تالش همیشه بخشی از ریشه‌های ایران بوده..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 discover-block">
+                        <div class="discover-block-one wow fadeInUp animated animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="content-box">
+                                    <h4>فرهنگ<br />مردم مهمان نواز</h4>
+                                </div>
+                                <div class="overlay-content">
+                                    <h4>فرهنگ<br />مردم مهمان نواز</h4>
+                                    <p>لباس‌های رنگی، موسیقی محلی، و دل‌هایی گرم‌تر از چای شمالی.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 discover-block">
+                        <div class="discover-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="content-box">
+                                    <h4>جاذبه‌های <br />گردشگری متنوع</h4>
+                                </div>
+                                <div class="overlay-content">
+                                    <h4>جاذبه‌های <br />گردشگری متنوع</h4>
+                                    <p>از قلعه لیسار تا ییلاق سوباتان، هر گوشه‌اش داستانی داره.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- alt تصاویر تیم و لینک‌ها اصلاح شد -->
+        <section class="team-section sec-pad">
+            <div class="auto-container">
+                <div class="sec-title">
+                    <h6><i class="flaticon-star"></i><span>&nbsp;هدف پروژه&nbsp;</span></h6>
+                    <p><strong>ما یه تیم کوچک اما عاشقیم.(هدفمون اینه که تالش رو همون‌طوری که هست نشون بدیم — با مردم خون‌گرم، فرهنگ زیبا و طبیعت بی‌نظیرش.&nbsp;</strong></p>
+                    <p><strong>هشتپر فقط یه سایت نیست، یه حرکت مردمیه برای شناخت و حفظ زیبایی‌های شمال.)</strong></p>
+                    <h2 class="text-center"><strong>&nbsp;اعضای گروه و پشتیبانی</strong></h2>
+                    <div class="title-shape"></div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="#"><img src="assets/images/team/team-1.jpg" alt="عکس Godfather مدیر و طراح سایت هشتپر"></a></figure>
+                                <div class="lower-content">
+                                    <div class="author-box">
+                                        <h4><a href="#">Godfather</a></h4>
+                                        <span class="designation">مدیر و طراح سایت(هشتپر)</span>
+                                    </div>
+                                    <ul class="othre-info clearfix">
+                                        <li class="mail-box"><a href="#"><i class="flaticon-mail-inbox-app"></i>ایمیل</a></li>
+                                        <li class="phone-box"><i class="flaticon-emergency-call"></i><a href="tel:#">#</a></li>
+                                        <li class="share-option">
+                                            <i class="share-icon flaticon-share"></i>
+                                            <ul class="share-links clearfix">
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="#"><img src="assets/images/team/team-2.jpg" alt="عکس السانا شکاری مدیر فنی وب سایت هشتپر"></a></figure>
+                                <div class="lower-content">
+                                    <div class="author-box">
+                                        <h4><a href="#">اِلسانا شکاری</a></h4>
+                                        <span class="designation">مدیر فنی(وب سایت هشتپر)</span>
+                                    </div>
+                                    <ul class="othre-info clearfix">
+                                        <li class="mail-box"><a href="#"><i class="flaticon-mail-inbox-app"></i>ایمیل</a></li>
+                                        <li class="phone-box"><i class="flaticon-emergency-call"></i><a href="tel:#">#</a></li>
+                                        <li class="share-option">
+                                            <i class="share-icon flaticon-share"></i>
+                                            <ul class="share-links clearfix">
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="#"><img src="assets/images/team/team-3.jpg" alt="عکس سام درخشان سئو کار وب سایت هشتپر"></a></figure>
+                                <div class="lower-content">
+                                    <div class="author-box">
+                                        <h4><a href="#">سام درخشان</a></h4>
+                                        <span class="designation">سئو کار(وب سایت هشتپر)</span>
+                                    </div>
+                                    <ul class="othre-info clearfix">
+                                        <li class="mail-box"><a href="#"><i class="flaticon-mail-inbox-app"></i>ایمیل</a></li>
+                                        <li class="phone-box"><i class="flaticon-emergency-call"></i><a href="tel:#">#</a></li>
+                                        <li class="share-option">
+                                            <i class="share-icon flaticon-share"></i>
+                                            <ul class="share-links clearfix">
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="#"><img src="assets/images/team/team-4.jpg" alt="عکس انوشا رحیمی مدیر مالی وب سایت هشتپر"></a></figure>
+                                <div class="lower-content">
+                                    <div class="author-box">
+                                        <h4><a href="#">اَنوشا رحیمی</a></h4>
+                                        <span class="designation">مدیر مالی(وب سایت هشتپر)</span>
+                                    </div>
+                                    <ul class="othre-info clearfix">
+                                        <li class="mail-box"><a href="#"><i class="flaticon-mail-inbox-app"></i>ایمیل</a></li>
+                                        <li class="phone-box"><i class="flaticon-emergency-call"></i><a href="tel:#">#</a></li>
+                                        <li class="share-option">
+                                            <i class="share-icon flaticon-share"></i>
+                                            <ul class="share-links clearfix">
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- alt تصاویر و لینک بیشتر بخوانید اصلاح شد -->
+        <section class="information-section bg-color-1">
+            <div class="bg-layer" style="background-image: url(assets/images/background/information-bg.jpg);"></div>
+            <div class="auto-container">
+                <div class="sec-title centred light">
+                    <h6><i class="flaticon-star"></i><span>پیشینه تاریخی</span><i class="flaticon-star"></i></h6>
+                    <h2>پیشینه تاریخی هشتپر(تالش)</h2>
+                    <div class="title-shape"></div>
+                </div>
+                <div class="inner-content">
+                    <div class="schedule-carousel">
+                        <div class="information-block-one">
+                            <div class="inner-box">
+                                <span class="count">01.</span>
+                                <div class="icon-box"><i class="flaticon-diagram"></i></div>
+                                <div class="text">
+                                    <h4>آغاز شکل‌گیری شهر</h4>
+                                    <p>شهر هشتپر، مرکز شهرستان تالش، در شمال‌غربی استان گیلان قرار گرفته و ریشه‌های تاریخی آن به اوایل دوران ناصرالدین‌شاه قاجار برمی‌گردد. در آن زمان، این منطقه یکی از مسیرهای اصلی ارتباطی میان کوه و دریا بود و به‌دلیل موقعیت جغرافیایی‌اش، به تدریج به محلی برای بازرگانی و دادوستد تبدیل شد. هسته‌ی اولیه‌ی شهر از همین مسیرهای قدیمی و سکونت‌گاه‌های کوچک شکل گرفت و به مرور گسترش یافت.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="information-block-one">
+                            <div class="inner-box">
+                                <span class="count">02.</span>
+                                <div class="icon-box"><i class="flaticon-diagram"></i></div>
+                                <div class="text">
+                                    <h4>ریشه‌های کهن در تاریخ و فرهنگ</h4>
+                                    <p>تاریخ تالش و هشتپر بسیار فراتر از چند قرن گذشته است. در منابع تاریخی و یافته‌های باستان‌شناسی، نشانه‌هایی از تمدن‌های کهن شمال ایران در این منطقه دیده می‌شود؛ مردمانی که در میان جنگل‌های انبوه، رودخانه‌های زلال و کوه‌های همیشه‌سبز زندگی می‌کردند. این مردم با فرهنگ غنی و اصیل خود، زبان تالشی، آیین‌های محلی، و لباس‌های سنتی‌شان، میراثی ارزشمند از گذشته را برای نسل امروز به جا گذاشته‌اند.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="information-block-one">
+                            <div class="inner-box">
+                                <span class="count">03.</span>
+                                <div class="icon-box"><i class="flaticon-diagram"></i></div>
+                                <div class="text">
+                                    <h4>پیوند سنت و زندگی امروز</h4>
+                                    <p>با گسترش ارتباطات و رشد جمعیت در قرن اخیر، هشتپر چهره‌ای شهری و امروزی به خود گرفت، اما هنوز بوی اصالت و گذشته در کوچه‌ها و چهره‌ی مردمش موج می‌زند. این شهر امروز به نماد پیوند میان تاریخ، طبیعت و فرهنگ مردم تالش تبدیل شده؛ جایی که صدای گذشته در دل زندگی مدرن هنوز شنیده می‌شود.</p>
+                                    <!-- لینک به صفحه تاریخچه -->
+                                    <a href="history.html">بیشتر بخوانید<i class="flaticon-left-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- alt تصاویر اصلاح شد -->
+        <section class="award-section bg-color-1">
+            <figure class="image-layer"><img src="assets/images/resource/award-1.jpg" alt="پس‌زمینه‌ای از فرهنگ تالش"></figure>
+            <div class="vector-image" style="background-image: url(assets/images/icons/vector-2.png);"></div>
+            <div class="auto-container">
+                <div class="sec-title">
+                    <h6><i class="flaticon-star"></i><span>اصالت خاک</span></h6>
+                    <h2>نماد زندگی مردمان تالشی</h2>
+                    <div class="title-shape"></div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-xl-3 col-lg-4 col-md-6 award-block">
+                        <div class="award-block-one">
+                            <div class="inner-box">
+                                <figure class="award-box">
+                                    <div class="bg-pattern" style="background-image: url(assets/images/icons/icon-bg-1.png);"></div>
+                                    <img src="assets/images/icons/award-1.png" alt="آیکون زن تالشی">
+                                </figure>
+                                <h4> زن تالشی<br /></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 award-block">
+                        <div class="award-block-one">
+                            <div class="inner-box">
+                                <figure class="award-box">
+                                    <div class="bg-pattern" style="background-image: url(assets/images/icons/icon-bg-1.png);"></div>
+                                    <img src="assets/images/icons/award-2.png" alt="آیکون مرد تالشی">
+                                </figure>
+                                <h4>مرد تالشی<br /></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 award-block">
+                        <div class="award-block-one">
+                            <div class="inner-box">
+                                <figure class="award-box">
+                                    <div class="bg-pattern" style="background-image: url(assets/images/icons/icon-bg-1.png);"></div>
+                                    <img src="assets/images/icons/award-3.png" alt="آیکون سنت های تالش">
+                                </figure>
+                                <h4>سنت های تالش<br /></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- alt تصاویر اصلاح شد -->
+        <section class="feature-section sec-pad" style="background-image: url(assets/images/background/feature-bg.jpg);">
+            <div class="auto-container">
+                <div class="sec-title centred">
+                    <h6><i class="flaticon-star"></i><span>هشتپر در یک نگاه</span><i class="flaticon-star"></i></h6>
+                    <h2>«چشم‌اندازی از دل تالش»</h2>
+                    <div class="title-shape"></div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-two wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="assets/images/resource/feature-3.jpg" alt="تصویری از شهر هشتپر"></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box"><i class="flaticon-group"></i></div>
+                                    <div class="light-icon"><i class="flaticon-group"></i></div>
+                                    <h4><a href="#">سفری کوتاه به دل هشتپر</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-two wow fadeInUp animated animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="assets/images/resource/feature-4.jpg" alt="منظره کوه، جنگل و دریا در تالش"></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box"><i class="flaticon-award"></i></div>
+                                    <div class="light-icon"><i class="flaticon-award"></i></div>
+                                    <h4><a href="#">جایی میان کوه، جنگل و دریا </a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-two wow fadeInUp animated animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="assets/images/resource/feature-5.jpg" alt="منظره مه‌آلود هشتپر"></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box"><i class="flaticon-analytics"></i></div>
+                                    <div class="light-icon"><i class="flaticon-analytics"></i></div>
+                                    <h4><a href="#">هشتپر، سرزمین آرامش و مه</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-two wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="assets/images/resource/feature-6.jpg" alt="تصویری دیگر از زیبایی‌های هشتپر"></figure>
+                                <div class="lower-content">
+                                    <div class="icon-box"><i class="flaticon-calendar-2"></i></div>
+                                    <div class="light-icon"><i class="flaticon-calendar-2"></i></div>
+                                    <h4><a href="#">هشتپر با همه زیبایی‌هاش</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- alt تصاویر و لینک‌های فوتر اصلاح شد -->
+        <footer class="main-footer">
+            <div class="footer-top pt-50">
+                <div class="auto-container">
+                    <div class="top-inner">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-6 col-sm-12 logo-column">
+                                <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png" alt="لوگوی فوتر هشتپر"></a></figure>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-12 text-column">
+                                <div class="text">
+                                    <h3><a href="https://tracking.post.ir" target="_blank">رهگیری مرسوله های پستی</a></h3>
+                                    <h3><a href="https://tipaxco.com/tracking" target="_blank">رهگیری مرسوله های تیپاکس</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-section">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h3>خدمات</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <!-- لینک‌ها باید به صفحات مرتبط وصل شوند -->
+<li><a href="blog.html">کسب‌وکارهای تالش</a></li>
+                                                <li><a href="municipality.html"> شهرداری تالش</a></li>
+                                                <li><a href="tourism-travel1.html">رزرو اقامتگاه</a></li>
+                                                <li><a href="#">آب و هوا</a></li>
+                                                <li><a href="blog-2.html">تور ها</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h3>لینک های مفید</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <!-- لینک‌ها باید به صفحات مرتبط وصل شوند -->
+<li><a href="health-medical.html">خبرگزاری محلی</a></li>
+<li><a href="gallery.html">گالری تصاویر</a></li>
+<li><a href="event-details.html">تالار گفتمان</a></li>
+<li><a href="event-2.html">ویدیو ها</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget contact-widget">
+                                <div class="widget-title">
+                                    <h3>اطلاعات تماس</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info clearfix">
+                                        <li>
+                                            <h5>آدرس ما</h5>
+                                            <p>گیلان_شهرستان ،تالش(هــشتپر)</p>
+                                        </li>
+                                        <li>
+                                            <h5>پل ارتباطی با ما</h5>
+                                            <li><a href="#" target="_blank"><i class="fab fa-telegram"></i> تلگرام </a></li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i> یوتیوب </a></li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> اینستاگرام </a></li>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget register-widget">
+                                <div class="inner-box">
+                                    <div class="upper">
+                                        <div class="icon-box"><i class="flaticon-edit"></i></div>
+                                        <h4>پیشنهاد ثبت کنید</h4>
+                                    </div>
+                                    <p>در اینجا می توانید پیشنهاد خود را برای بهبود سایت ثبت کنید.</p>
+                                    <a href="contact.html">اکنون ثبت کنید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="bottom-inner clearfix">
+                        <div class="copyright pull-left">
+                            <p> <a href="http://8par.ir"> حقوق مادی و معنوی تمام مطالب برای هــشتپر محفوظ است. بازنشر فقط با ذکر منبع مجاز است.</a></p></div>
+                    </div>
+                    <ul class="footer-nav clearfix pull-right">
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <span class="fas fa-angle-up"></span>
+        </button>
+    </div>
+
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/nav-tool.js"></script>
+    <script src="assets/js/bxslider.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
